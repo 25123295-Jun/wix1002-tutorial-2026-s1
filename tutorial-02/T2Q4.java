@@ -9,7 +9,7 @@ public class T2Q4 {
         //c
         boolean M = true;
         //d
-        long P = 8800000000;
+        long P = 8800000000L;
         //e
         char latter = 'C';
         //f
