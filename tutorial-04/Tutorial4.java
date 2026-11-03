@@ -1,11 +1,10 @@
 //1. Write statements for each of the following.
 //a. Find the largest integer n so that n3 is less than 2000.
 int n = 0;
-double ans = 0;
-while (ans <2000){
+while (n*n*n <2000){
   n++;
-  ans = n*n*n;
-  IO.print(ans)
+  
+  IO.print(n-1)
 }
 //b. Display the square number of the first twelve integers starting from 1.
 for(int i=1,i<=12,i++){
